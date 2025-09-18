@@ -1,28 +1,39 @@
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-        <a class="navbar-brand text-accent-bold" href="/">Matteo Veroni</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" id="home-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="project1-link" href="/projects/project1.html" data-i18n="project1">Project 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="project2-link" href="/projects/project2.html" data-i18n="project2">Project 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contacts-link" href="/contacts.html" data-i18n="contacts">Contact</a>
-                </li>
-            </ul>
-            <!--#include virtual="/language_selector.html" -->
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">Matteo Veroni</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- Right-aligned menu entries -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html" data-i18n="nav_home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-i18n="nav_about">About</a>
+        </li>
+        <!-- Projects Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n="nav_projects">
+            Projects
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/projects/kotlin-core.html" data-i18n="nav_kotlin_core">kotlin-core</a></li>
+            <li><a class="dropdown-item" href="/projects/ehrforequips.html" data-i18n="nav_ehrforequips">EHRforEquips</a></li>
+            <li><a class="dropdown-item" href="/projects/pong.html" data-i18n="nav_pong">Pong</a></li>
+            <li><a class="dropdown-item" href="/projects/quizmaker.html" data-i18n="nav_quizmaker">QuizMaker</a></li>
+            <li><a class="dropdown-item" href="/projects/aai-assignment.html" data-i18n="nav_aai_assignment">AAI Assignment</a></li>
+            <li><a class="dropdown-item" href="/projects/kotetris.html" data-i18n="nav_kotetris">KoTetris</a></li>
+            <li><a class="dropdown-item" href="/projects/real-time-coin-acceptor.html" data-i18n="nav_coin_acceptor">Real-Time Coin Acceptor</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact" data-i18n="nav_contact">Contact</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
 
 <!-- JavaScript to highlight active link -->
