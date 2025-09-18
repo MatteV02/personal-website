@@ -4,9 +4,6 @@
   "hero_button": "View My Work",
   "about_title": "About Me",
   "about_text": "I am a passionate software engineer with experience in cybersecturity, embedded systems, IoT, and web development.",
-  "projects_title": "My Projects",
-  "project1_title": "Project 1",
-  "project1_desc": "A brief description of Project 1.",
   "view_project": "View Project",
   "contact_title": "Contact Me",
   "contact_form": "Feel free to reach out to me for any questions or opportunities!",
@@ -14,11 +11,8 @@
   "form_email": "Email",
   "form_message": "Message",
   "form_submit": "Submit",
-  "project_title": "Project 1",
-  "project_desc": "Description of Project 1",
   "back_to_projects": "Back to Projects",
   "home": "Home",
-  "project2": "Project 2",
   "contacts": "Contact",
   "copyright": "© 2025 Matteo Veroni. All rights reserved.",
   "contact_me": "Contact Me",
@@ -59,5 +53,8 @@
   "experience_afterschool_location": "Carpi, Italy",
   "experience_afterschool_duration": "Sep 2024 - Feb 2025",
   "experience_afterschool_bullet1": "Tutored children aged 12-14",
-  "experience_afterschool_bullet2": "Homework assistance and mentoring"
+  "experience_afterschool_bullet2": "Homework assistance and mentoring",
+  "nav_about": "About me",
+  "nav_projects": "Projects",
+  "nav_contact": "Contacts"
 }
