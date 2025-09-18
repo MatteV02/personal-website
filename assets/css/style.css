@@ -124,8 +124,62 @@ a:hover {
     color: white;
 }
 
+.bg-alt-accent {
+    background-color: var(--alt-accent-color) !important;
+    color: white;
+}
+
 .nav-link.active {
     font-weight: bold;
     color: white !important;
 }
 
+.timeline {
+    position: relative;
+    max-width: min(750px, 100%);
+    margin: 20px auto;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    margin-left: -1px;
+}
+.timeline-content::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.timeline-content {
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 10px;
+    border-color: var(--secondary-color);
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.timeline-content h4 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.experience-logo {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+/* For Formation Timeline */
+.formation-logo {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+    fill: white;
+}
