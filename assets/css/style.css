@@ -1,0 +1,110 @@
+/* Custom Color Theme */
+:root {
+    --primary-color: #9CFF47; 
+    --secondary-color: #FFEF47;
+    --accent-color: #9b3fdd;   
+    --alt-accent-color: #807D63;  
+    --background-color: #746380;  
+    --alt-background-color: #708063;  
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--background-color) !important;
+}
+
+/* Footer */
+.footer-bg {
+    background-color: var(--background-color) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #8AE63F;
+    border-color: #8AE63F;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: var(--alt-accent-color);
+    border-color: var(--alt-accent-color);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #ebdc41;
+    border-color: #ebdc41;
+    color: black;
+}
+
+/* Cards */
+.card {
+    border: 1px solid var(--alt-background-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: var(--alt-background-color);
+    color: white;
+}
+
+/* Hero Section */
+.bg-light {
+    background-color: var(--secondary-color) !important;
+}
+
+/* Footer */
+.bg-dark {
+    background-color: var(--background-color) !important;
+}
+
+/* Text Colors */
+.text-primary {
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.text-secondary {
+    color: var(--secondary-color) !important;
+}
+
+.text-accent {
+    color: white !important;
+}
+
+.text-accent-bold {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: #9B3DFF;
+}
+
+/* Custom Backgrounds */
+.bg-accent {
+    background-color: var(--accent-color) !important;
+    color: white;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white !important;
+}
+
