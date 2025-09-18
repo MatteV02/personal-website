@@ -67,7 +67,7 @@
   "kotetris-brief": "A Kotlin Multiplatform version of the famous Tetris game.",
   "personal-website-brief": "The source code for this website.",
   "project-overview": "Project Overview",
-  "kotlin-long": "This repository is an adaptation of the exercises provided in <a href=\"https://github.com/nbicocchi/java-core/tree/main\" target=\"_blank\">nbicocchi/java-core</a> for the Kotlin programming language. It contains exercises covering basics, object-oriented design, data structures, generics, functional programming, exceptions, I/O and multi-threading.",
+  "kotlin-long": "This repository is an adaptation of the exercises provided in https://github.com/nbicocchi/java-core/ for the Kotlin programming language. It contains exercises covering basics, object-oriented design, data structures, generics, functional programming, exceptions, I/O and multi-threading.",
   "features": "Features",
   "kotlin-bullet1": "Exercises for Kotlin basics",
   "kotlin-bullet2": "Object-oriented design exercises",
