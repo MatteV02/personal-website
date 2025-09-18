@@ -140,7 +140,7 @@ a:hover {
 
 .timeline {
     position: relative;
-    max-width: min(750px, 100%);
+    max-width: min(750px, 90%);
     margin: 20px auto;
 }
 .timeline::after {
@@ -173,19 +173,21 @@ a:hover {
     margin-top: 0;
     color: var(--primary-color);
 }
-
-.experience-logo {
-    max-width: 80px;
-    max-height: 80px;
-    object-fit: contain;
+.timeline-content-textcolumn {
+    width: 60%
 }
 
 /* For Formation Timeline */
 .formation-logo {
-    max-width: 80px;
-    max-height: 80px;
-    object-fit: contain;
+    width: max(20%, 50px);
     fill: white;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.experience-logo {
+    max-width: min(80px, 25%);
+    min-height: 80px;
 }
 
 .project-grid {
