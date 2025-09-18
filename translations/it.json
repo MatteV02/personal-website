@@ -62,5 +62,14 @@
   "experience_afterschool_bullet2": "Aiuto nello svolgimento dei compiti e insegnamento",
   "nav_about": "Chi sono?",
   "nav_projects": "Progetti",
-  "nav_contact": "Contattami"
+  "nav_contact": "Contattami",
+  "kotlin-brief": "Un eserciziario per imparare il linguaggio Kotlin.",
+  "github": "Vedi su GitHub",
+  "ehrforequips-brief": "Gestionale di dati clinici per medici liberi professionisti.",
+  "real-time-coin-acceptor-brief": "Una gettoniera real-time sviluppata attraverso Raspberry Pi Pico, FreeRTOS e Micro-ROS",
+  "pong-brief": "Una versione del gioco Pong sviluppata usando pthreads e ncurses.",
+  "quizmaker-brief": "Un tool per creare quiz HTML.",
+  "aai_assignment-brief": "Un agente che sfrutta Reinforcement Learning per risolvere un problema relativo a un sistema produttivo simulato.",
+  "kotetris-brief": "Una versione scritta attraverso Kotlin Multiplatform del gioco Tetris.",
+  "personal-website-brief": "Il codice sorgente di questo sito."
 }

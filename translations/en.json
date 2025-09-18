@@ -56,5 +56,14 @@
   "experience_afterschool_bullet2": "Homework assistance and mentoring",
   "nav_about": "About me",
   "nav_projects": "Projects",
-  "nav_contact": "Contacts"
+  "nav_contact": "Contacts",
+  "kotlin-brief": "A Kotlin-based core environment for learning.",
+  "github": "View on GitHub",
+  "ehrforequips-brief": "Electronic Health Records system for freelance doctors.",
+  "real-time-coin-acceptor-brief": "A real-time coin acceptor powered by Raspberry Pi Pico, FreeRTOS and Micro-ROS.",
+  "pong-brief": "A classic Pong game implemented using pthreads and ncurses.",
+  "quizmaker-brief": "A tool for creating HTML quizzes.",
+  "aai_assignment-brief": "Reinforcement Learning agent for a simulated production system.",
+  "kotetris-brief": "A Kotlin Multiplatform version of the famous Tetris game.",
+  "personal-website-brief": "The source code for this website."
 }
