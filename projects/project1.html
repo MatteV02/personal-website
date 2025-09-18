@@ -15,7 +15,7 @@
     <!-- Project Hero -->
     <section class="py-5 bg-light">
         <div class="container py-5 text-center">
-            <h1 class="display-4 text-dark">Project 1</h1>
+            <h1 class="display-4 text-dark" data-i18n="project_title">Project 1</h1>
             <p class="lead text-dark">A detailed description of Project 1.</p>
         </div>
     </section>
@@ -59,5 +59,12 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+        <div class="language-selector position-fixed bottom-0 end-0 m-3">
+            <button onclick="changeLanguage('en')" class="btn btn-sm btn-outline-light">English</button>
+            <button onclick="changeLanguage('it')" class="btn btn-sm btn-outline-light">Italiano</button>
+        </div>
+        
+        <script src="assets/js/translations.js"></script>
+        </body>
 </html>

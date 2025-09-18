@@ -15,33 +15,33 @@
     <!-- Hero Section -->
     <section class="py-5">
         <div class="container py-5 text-center">
-            <h1 class="display-4 text-dark">Hello, I'm Matteo Veroni</h1>
-            <p class="lead text-dark">Welcome to my portfolio. Explore my projects and skills.</p>
-            <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+            <h1 class="display-4 text-dark" data-i18n="hero_title">Hello, I'm Matteo Veroni</h1>
+            <p class="lead text-dark" data-i18n="hero_subtitle">Welcome to my portfolio. Explore my projects and skills.</p>
+            <a href="#projects" class="btn btn-primary btn-lg mt-3" data-i18n="hero_button">View My Work</a>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="py-5 bg-accent">
         <div class="container">
-            <h2 class="mb-4 text-white">About Me</h2>
-            <p class="text-white">I am a passionate developer and engineer with experience in embedded systems, IoT, and web development.</p>
+            <h2 class="mb-4 text-white" data-i18n="about_title">About Me</h2>
+            <p class="text-white" data-i18n="about_text">I am a passionate developer and engineer with experience in embedded systems, IoT, and web development.</p>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="py-5">
         <div class="container">
-            <h2 class="mb-4 text-dark">My Projects</h2>
+            <h2 class="mb-4 text-dark" data-i18n="projects_title">My Projects</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="card-title mb-0 text-white">Project 1</h5>
+                            <h5 class="card-title mb-0 text-white" data-i18n="project1_title">Project 1</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">A brief description of Project 1.</p>
-                            <a href="projects/project1.html" class="btn btn-secondary">View Project</a>
+                            <p class="card-text" data-i18n="project1_desc">A brief description of Project 1.</p>
+                            <a href="projects/project1.html" class="btn btn-secondary" data-i18n="view_project">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -65,5 +65,12 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+        <div class="language-selector position-fixed bottom-0 end-0 m-3">
+            <button onclick="changeLanguage('en')" class="btn btn-sm btn-outline-light">English</button>
+            <button onclick="changeLanguage('it')" class="btn btn-sm btn-outline-light">Italiano</button>
+        </div>
+        
+        <script src="assets/js/translations.js"></script>
+        </body>
 </html>
