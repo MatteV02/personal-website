@@ -15,8 +15,8 @@
     <!-- Project Hero -->
     <section class="py-5 bg-light">
         <div class="container py-5 text-center">
-            <h1 class="display-4 text-dark" data-i18n="project_title">QuizMaker</h1>
-            <p class="lead text-dark">Converts questions in human-readable format to an interactive form.</p>
+            <h1 class="display-4 text-dark">QuizMaker</h1>
+            <p class="lead text-dark" data-i18n="quizmaker-brief">A tool for creating HTML quizzes.</p>
         </div>
     </section>
 
@@ -25,25 +25,25 @@
         <div class="container">
             <div class="card mb-4">
                 <div class="card-header">
-                    <h2 class="card-title text-white">Project Overview</h2>
+                    <h2 class="card-title text-white" data-i18n="project-overview">Project Overview</h2>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">
+                    <p class="card-text" data-i18n="quizmaker-long">
                         QuizMaker is a tool that converts questions in JSON format to an interactive HTML quiz.
                         It supports single-solution questions and is designed for easy integration and testing.
                     </p>
                     <div class="row">
                         <div class="col-md-6">
-                            <h4>Features</h4>
+                            <h4 data-i18n="features">Features</h4>
                             <ul>
-                                <li>JSON input support</li>
-                                <li>Interactive HTML output</li>
-                                <li>Test-driven development</li>
-                                <li>Unit and integration testing</li>
+                                <li data-i18n="quizmaker-question1">JSON input support</li>
+                                <li data-i18n="quizmaker-question2">Interactive HTML output</li>
+                                <li data-i18n="quizmaker-question3">Test-driven development</li>
+                                <li data-i18n="quizmaker-question4">Unit and integration testing</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <h4>Technologies Used</h4>
+                            <h4 data-i18n="technologies-used">Technologies Used</h4>
                             <ul>
                                 <li>Python</li>
                                 <li>JSON</li>
@@ -61,5 +61,8 @@
     </section>
 
     <!--#include virtual="/footer.html" -->
+
+    <!-- Multilingual -->
+    <script src="/assets/js/translations.js"></script>
 </body>
 </html>

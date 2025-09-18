@@ -15,8 +15,8 @@
     <!-- Project Hero -->
     <section class="py-5 bg-light">
         <div class="container py-5 text-center">
-            <h1 class="display-4 text-dark" data-i18n="project_title">Real-Time Coin Acceptor</h1>
-            <p class="lead text-dark">A real-time coin acceptor powered by Raspberry Pi Pico, FreeRTOS, and Micro-ROS.</p>
+            <h1 class="display-4 text-dark">Real-Time Coin Acceptor</h1>
+            <p class="lead text-dark" data-i18n="real-time-coin-acceptor-brief">A real-time coin acceptor powered by Raspberry Pi Pico, FreeRTOS, and Micro-ROS.</p>
         </div>
     </section>
 
@@ -25,27 +25,27 @@
         <div class="container">
             <div class="card mb-4">
                 <div class="card-header">
-                    <h2 class="card-title text-white">Project Overview</h2>
+                    <h2 class="card-title text-white" data-i18n="project-overview">Project Overview</h2>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">
+                    <p class="card-text" data-i18n="real-time-coin-acceptor-long">
                         This project implements a real-time coin acceptor using a Raspberry Pi Pico, FreeRTOS, and Micro-ROS.
                         It includes C++ code for the Pico, Python calibration utilities, and a Python frontend.
                         The system is designed for real-time coin detection and value publishing via Micro-ROS topics.
                     </p>
                     <div class="row">
                         <div class="col-md-6">
-                            <h4>Features</h4>
+                            <h4 data-i18n="features">Features</h4>
                             <ul>
-                                <li>Real-time coin detection</li>
-                                <li>Micro-ROS integration</li>
-                                <li>Python calibration utilities</li>
-                                <li>FreeRTOS-based firmware</li>
-                                <li>Raspberry Pi Pico support</li>
+                                <li data-i18n="real-time-coin-acceptor-bullet1">Real-time coin detection</li>
+                                <li data-i18n="real-time-coin-acceptor-bullet2">Micro-ROS integration</li>
+                                <li data-i18n="real-time-coin-acceptor-bullet3">Python calibration utilities</li>
+                                <li data-i18n="real-time-coin-acceptor-bullet4">FreeRTOS-based firmware</li>
+                                <li data-i18n="real-time-coin-acceptor-bullet5">Raspberry Pi Pico support</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <h4>Technologies Used</h4>
+                            <h4 data-i18n="technologies-used">Technologies Used</h4>
                             <ul>
                                 <li>C++</li>
                                 <li>FreeRTOS</li>
@@ -58,12 +58,15 @@
                     </div>
                 </div>
                 <div class="card-footer bg-transparent">
-                    <a href="https://github.com/FilippoCavalieri/real-time-coin-acceptor" target="_blank" class="btn btn-primary">View on GitHub</a>
+                    <a href="https://github.com/FilippoCavalieri/real-time-coin-acceptor" target="_blank" class="btn btn-primary" data-i18n="github">View on GitHub</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!--#include virtual="/footer.html" -->
+
+    <!-- Multilingual -->
+    <script src="/assets/js/translations.js"></script>
 </body>
 </html>
