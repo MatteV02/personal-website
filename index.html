@@ -59,24 +59,57 @@
                 </div>
             </div>
             <div class="timeline-content">
-                <h4 data-i18n="timeline_bachelor">Bachelor's Degree in Computer Science Engineering</h4>
-                <p data-i18n="timeline_bachelor_location"><strong>University of Modena and Reggio Emilia</strong></p>
-                <p data-i18n="timeline_bachelor_duration">2021 - 2024</p>
-                <p data-i18n="timeline_bachelor_grade">Final Grade: Summa Cum Laude</p>
-                <p data-i18n="timeline_bachelor_thesis">Thesis: EHRforEquips - A clinical data management system for freelance doctors</p>
-                <p data-i18n="timeline_bachelor_fields">Fields: Network design, Cybersecurity, Software Development, Electronics, Automation</p>
+                <div class="row g-0">
+                    <div class="col-3 d-flex align-items-center justify-content-center p-3">
+                        <img
+                            src="/assets/images/unimore.svg"
+                            alt="University of Modena and Reggio Emilia Logo"
+                            class="img-fluid formation-logo"
+                        >
+                    </div>
+                    <div class="col-9">
+                        <h4 data-i18n="timeline_bachelor">Bachelor's Degree in Computer Science Engineering</h4>
+                        <p data-i18n="timeline_bachelor_location"><strong>University of Modena and Reggio Emilia</strong></p>
+                        <p data-i18n="timeline_bachelor_duration">2021 - 2024</p>
+                        <p data-i18n="timeline_bachelor_grade">Final Grade: Summa Cum Laude</p>
+                        <p data-i18n="timeline_bachelor_thesis">Thesis: EHRforEquips - A clinical data management system for freelance doctors</p>
+                        <p data-i18n="timeline_bachelor_fields">Fields: Network design, Cybersecurity, Software Development, Electronics, Automation</p>
+                    </div>
+                </div>
             </div>
             <div class="timeline-content">
-                    <h4 data-i18n="timeline_highschool">High School Diploma - Scientific High School (Applied Sciences)</h4>
-                    <p data-i18n="timeline_highschool_location"><strong>Liceo Scientifico Statale Manfredo Fanti, Carpi</strong></p>
-                    <p data-i18n="timeline_highschool_duration">2016 - 2021</p>
-                    <p data-i18n="timeline_highschool_grade">Final Grade: 100/100</p>
+                <div class="row g-0">
+                    <div class="col-3 d-flex align-items-center justify-content-center p-3">
+                        <img
+                            src="/assets/images/fanti.svg"
+                            alt="Liceo Fanti Logo"
+                            class="img-fluid formation-logo"
+                        >
+                    </div>
+                    <div class="col-9">
+                        <h4 data-i18n="timeline_highschool">High School Diploma - Scientific High School (Applied Sciences)</h4>
+                        <p data-i18n="timeline_highschool_location"><strong>Liceo Scientifico Statale Manfredo Fanti, Carpi</strong></p>
+                        <p data-i18n="timeline_highschool_duration">2016 - 2021</p>
+                        <p data-i18n="timeline_highschool_grade">Final Grade: 100/100</p>
+                    </div>
                 </div>
+            </div>
             <div class="timeline-content">
-                <h4 data-i18n="timeline_giardino">Giardino delle Imprese</h4>
-                <p data-i18n="timeline_giardino_location"><strong>Fondazione Golinelli, Bologna</strong></p>
-                <p data-i18n="timeline_giardino_duration">Jul 2019 - Sep 2019</p>
-                <p data-i18n="timeline_giardino_fields">Informal school of entrepreneurial culture</p>
+                <div class="row g-o">
+                    <div class="col-3 d-flex align-items-center justify-content-center p-3">
+                        <img
+                            src="/assets/images/giardino.svg"
+                            alt="Giardino delle Imprese Logo"
+                            class="img-fluid formation-logo"
+                        >
+                    </div>
+                    <div class="col-9">
+                        <h4 data-i18n="timeline_giardino">Giardino delle Imprese</h4>
+                        <p data-i18n="timeline_giardino_location"><strong>Fondazione Golinelli, Bologna</strong></p>
+                        <p data-i18n="timeline_giardino_duration">Jul 2019 - Sep 2019</p>
+                        <p data-i18n="timeline_giardino_fields">Informal school of entrepreneurial culture</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -140,34 +173,89 @@
 
     <!-- Projects Section -->
     <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="mb-4 text-dark" data-i18n="projects_title">My Projects</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title mb-0 text-white" data-i18n="project1_title">Project 1</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text" data-i18n="project1_desc">A brief description of Project 1.</p>
-                            <a href="projects/project1.html" class="btn btn-secondary" data-i18n="view_project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="card-title mb-0 text-white">Project 2</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">A brief description of Project 2.</p>
-                            <a href="projects/project2.html" class="btn btn-secondary">View Project</a>
-                        </div>
-                    </div>
+    <div class="container">
+        <h2 class="text-center mb-5" data-i18n="projects_title">My Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Project 1: kotlin-core -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">kotlin-core</h5>
+                <p class="card-text">A Kotlin-based core library for reusable components.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/kotlin-core" target="_blank" class="btn btn-secondary">View on GitHub</a>
                 </div>
             </div>
         </div>
+
+        <!-- Project 2: EHRforEquips -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">EHRforEquips</h5>
+                <p class="card-text">Electronic Health Records system for medical equipment management.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/EHRforEquips" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3: Pong -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">Pong with pthreads and ncurses</h5>
+                <p class="card-text">A classic Pong game implemented using pthreads and ncurses.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/Pong" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4: QuizMaker -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">QuizMaker</h5>
+                <p class="card-text">A tool for creating and managing quizzes.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/quiz_maker" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 5: AAI Assignment -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">AAI Assignment</h5>
+                <p class="card-text">Reinforcement Learning application for a simulated production system.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/aai_assignment" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 6: KoTetris -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">KoTetris</h5>
+                <p class="card-text">A Kotlin Multiplatform version of the famous Tetris game.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/KoTetris" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 7: Personal Website -->
+        <div class="col">
+            <div class="card h-100">
+                <h5 class="card-header">Personal Website</h5>
+                <p class="card-text">The source code for this website.</p>
+                <div class="card-footer bg-transparent">
+                    <a href="https://github.com/MatteV02/personal-website" target="_blank" class="btn btn-secondary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     </section>
+
 
     <!--#include virtual="/footer.html" -->
 

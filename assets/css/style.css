@@ -54,6 +54,10 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+.card-text {
+    padding: 10px;
+}
+
 .card-header {
     background-color: var(--alt-background-color);
     color: white;
@@ -182,4 +186,38 @@ a:hover {
     max-height: 80px;
     object-fit: contain;
     fill: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
