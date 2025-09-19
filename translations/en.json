@@ -111,5 +111,22 @@
   "contact_form_title": "Get In Touch",
   "direct_email_title": "Or Email Me Directly",
   "email_success": "Email sent successfully!",
-  "email_error": "Failed to send email. Please try again."
+  "email_error": "Failed to send email. Please try again.",
+  "privacy_title": "Privacy Policy",
+  "privacy_data_collection": "Data Collection",
+  "privacy_data_collection_text": "We collect your name, surname, and email address only when you contact us via our website. This data is used solely to respond to your inquiries.",
+  "privacy_legal_basis": "Legal Basis and Retention",
+  "privacy_legal_basis_text": "We process your data based on your consent. Data is retained for 12 months after your last interaction, unless you request deletion.",
+  "privacy_third_party": "Third-Party Processors",
+  "privacy_third_party_text": "Your data is shared with EmailJS (for message forwarding) and Google (email infrastructure), both of which are GDPR-compliant. Data may be transferred outside the EU under Standard Contractual Clauses.",
+  "privacy_user_rights": "Your Rights",
+  "privacy_user_rights_text": "You have the right to access, correct, delete, or restrict processing of your data, as well as the right to data portability and to withdraw consent. To exercise these rights, contact us at veronimatteo.personalwebsite@gmail.com.",
+  "privacy_security": "Security",
+  "privacy_security_text": "We protect your data with appropriate technical and organizational measures and will notify you of any data breaches.",
+  "privacy_cookies": "Cookies",
+  "privacy_cookies_text": "This website does not use cookies or tracking technologies.",
+  "privacy_updates": "Updates",
+  "privacy_updates_text": "We may update this policy; changes will be posted here.",
+  "privacy_contact": "Contact",
+  "privacy_contact_text": "For privacy inquiries, contact veronimatteo.personalwebsite@gmail.com."
 }
