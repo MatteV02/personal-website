@@ -20,37 +20,57 @@
         </div>
     </section>
 
-    <!-- Contact Form -->
+    <!-- Contact Form and Direct Email -->
     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="card">
+                <!-- Contact Form Column -->
+                <div class="col-md-6">
+                    <div class="card h-100">
                         <div class="card-header bg-accent">
                             <h2 class="card-title text-white">Get In Touch</h2>
                         </div>
                         <div class="card-body">
-                            <form>
+                            <form id="contactForm">
                                 <div class="mb-3">
                                     <label for="name" class="form-label" data-i18n="form_name">Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
                                 </div>
                                 <div class="mb-3">
                                     <label for="email" class="form-label" data-i18n="form_email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email">
                                 </div>
                                 <div class="mb-3">
                                     <label for="message" class="form-label" data-i18n="form_message">Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Your Message"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Send Message</button>
                             </form>
                         </div>
                     </div>
                 </div>
+
+                <!-- Direct Email Column -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="card h-100 w-100">
+                        <div class="card-body text-center d-flex flex-column justify-content-center">
+                            <h3 class="card-title">Or Email Me Directly</h3>
+                            <a href="mailto:veronimatteo1@gmail.com" class="btn btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                                veronimatteo1@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+
+    <!-- Additional contact option -->
+    <p>Or, you can email me directly:</p>
+    <a href="mailto:veronimatteo1@gmail.com" target="_blank" rel="noopener noreferrer">
+        veronimatteo1@gmail.com
+    </a>
 
     <!--#include virtual="/footer.html" -->
 
@@ -59,5 +79,27 @@
 
     <!-- Multilingual -->
     <script src="/assets/js/translations.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init('K8Uj9cKx-aPq8C2ZN');
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            emailjs.send("service_7fk104b", "template_wwp6txr", {
+                name: document.querySelector('input[name="name"]').value,
+                email: document.querySelector('input[name="email"]').value,
+                message: document.querySelector('textarea[name="message"]').value
+            }).then(
+                function(response) {
+                    alert("Email sent successfully!");
+                },
+                function(error) {
+                    alert("Failed to send email. Please try again.");
+                }
+            );
+        });
+    </script>
 </body>
 </html>
