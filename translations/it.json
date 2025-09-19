@@ -111,5 +111,10 @@
   "kotetris-long": "KoTetris è una versione cross-platform del gioco Tetris sviluppata attraverso Kotlin Multiplatform.",
   "kotetris-bullet1": "Cross-platform",
   "kotetris-bullet2": "Controlli personalizzabili",
-  "kotetris-bullet3": "Punteggi"
+  "kotetris-bullet3": "Punteggi",
+  "contact_subtitle": "Non esitare a contattarmi per collaborazioni, domande o semplicemente per salutarmi!",
+  "contact_form_title": "Contattami",
+  "direct_email_title": "Oppure scrivimi direttamente",
+  "email_success": "Email inviata con successo!",
+  "email_error": "Invio email fallito. Per favore riprova."
 }

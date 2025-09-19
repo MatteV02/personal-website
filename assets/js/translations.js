@@ -13,11 +13,21 @@ async function loadTranslations(lang) {
     }
 }
 
+// Function to translate placeholders
+function translatePlaceholders(translations) {
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (translations[key]) {
+            element.placeholder = translations[key];
+        }
+    });
+}
+
 // Function to change language
 async function changeLanguage(lang) {
     const allowedLanguages = ['en', 'it'];
     if (!allowedLanguages.includes(lang)) {
-        lang = 'en'; // Default to a safe value
+        lang = 'en';
     }
     currentLanguage = lang;
     const translations = await loadTranslations(lang);
@@ -27,6 +37,7 @@ async function changeLanguage(lang) {
             element.textContent = translations[key];
         }
     });
+    translatePlaceholders(translations);
     document.documentElement.lang = lang;
     // Save the language preference
     localStorage.setItem('preferredLanguage', lang);
@@ -50,3 +61,4 @@ window.addEventListener('DOMContentLoaded', () => {
         changeLanguage(browserLanguage);
     }
 });
+
